@@ -1,0 +1,32 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .slaq{
+    position: relative;
+    top:100px;
+    left: 100px;
+    height: 500px;
+    width: 500px;
+ }
+ .cube{
+    width: 20%;
+    height: 40%;
+    border: 1px solid green;
+    position: absolute;
+    left: 35%;
+    bottom: 0;
+    background-color: green;
+ }
+ .triangle{
+    position: absolute;
+    top:40%;
+    left:27%;
+    height: 0;
+    width: 0;
+    border-left: 90px solid transparent; 
+    border-right: 90px solid transparent;
+    border-bottom: 120px solid green ;
+ }
+ 
