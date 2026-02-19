@@ -100,10 +100,9 @@ form input {
   border-radius: 5px;
 }
 
-
 form input[type="password"] {
   border: 2px solid #e91e63;
-  background-color: #fff0f6;
+  background-color: #ffebfc;
 }
 
 form button {
