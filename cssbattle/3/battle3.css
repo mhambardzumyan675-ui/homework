@@ -1,0 +1,43 @@
+.box{margin:50px;
+    position: relative;
+    width: 400px;
+    height: 300px;
+    
+    background-color: #6592CF;
+}
+.rec{
+    width: 80%;
+    height: 55%;
+    position: absolute;
+    top: 22%;
+    left:10%;
+   
+    background-color: #243D83;
+}
+.circle1{
+    position: absolute;
+    left: 18%;
+    bottom: 8%;
+    background-color: #6592CF;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+.circle2{
+    position: absolute;
+    left: 30%;
+    bottom: 25%;
+     background-color: #243D83;
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+.circle3{
+    position: absolute;
+    left: 41%;
+    bottom: 40%;
+    background-color:  #EEB850;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
