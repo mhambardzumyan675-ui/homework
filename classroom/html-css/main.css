@@ -1,61 +1,42 @@
- div{
-width: 200px;
-height: 200px;
-border: 1px solid #000;
+.box{
+    border: 1px solid #000;
+height: 500px;
+width: 500px;
+display:flex;
+justify-content:end;
+align-items:end;
+margin:auto;
+gap:20px;
+flex-wrap: nowrap; 
+}
 
- }
-.cube{
-    color: red;
-    font-size: 24px;
+.f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    background-color: #000;
+    color: aliceblue;
 }
-#cube1{
-    background: green;
+.f2{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    background-color: #000;
+    color: aliceblue;
 }
-#cube2{
-    background: red;
+.f3{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    background-color: #000;
+    color: rgb(255, 255, 255);
 }
-#cube3{
-    background: yellow;
-}
-.text-center{
-    text-align: center;
-}
-#cube4{
-    background: blue;
-}
-#cube1{
-    background:#566 ;
-}
-input[type="text"]{
-    border: 1px solid #000;;
-}
-input[type^="t"]{
-    border: 1px solid blue;
-}
-input[type$="l"]{
-    border: 1px solid greenyellow;
-}
-input[type*="mail"]{
-    border: 1px solid pink;
-}
-a[href*="Github"]{
-    background: red;
-}
-*{
-    
-}
-div{
-    border-bottom: 10px solid #000;
-    border-top:10px dashed blueviolet;
-     border-left:20px solid rgb(34, 133, 136);
-     border-right:10px solid #667;
-    width:200px;
-    height: 200px;
-    box-sizing: border-box;
-    margin:30px;
-    padding:20px;
-    border-top-left-radius: 100px ;
-    
-
-    
+.f1{
+    order:0;
 }
