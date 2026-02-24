@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    position: relative;
+    background-color: #62306D;
+    width: 400px;
+    height: 300px;
+}
+.box1{
+    position: absolute;
+    left:35%;
+    top:15%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100% 100% 0% 0%;
+    background-color: #F7EC7D;
+}
+.box2{
+    position: absolute;
+    left:10%;
+    top:48%;
+    width: 100px;
+    height: 100px;
+    border-radius: 0% 0% 100% 100%;
+    background-color: #F7EC7D;
+}
+.box3{
+    position: absolute;
+    left:60%;
+    top:48%;
+    width: 100px;
+    height: 100px;
+    border-radius: 0% 0% 100% 100%;
+    background-color: #F7EC7D;
+}
