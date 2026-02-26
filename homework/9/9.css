@@ -1,0 +1,58 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: "Arial",sans-serif;
+}
+
+.card{
+display: flex;
+flex-direction: column;
+background-color: rgb(213, 240, 240);
+justify-content: space-evenly;
+    width: 400px;
+    height: 600px;
+    margin: 50px;
+    border: 1px solid #acabab;
+    border-radius: 6px;
+}
+    .image {
+    margin: 0px 10px;
+    height: 300px; 
+    background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/7f/84/d7/caption.jpg?w=1200&h=-1&s=1");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+.card-content{
+     display: flex; 
+}
+.text1 span{
+    margin-left: 20px;
+    padding: 4px;
+    border: 1px solid #9b9b9b;
+    border-radius: 20px; 
+    color: #413f3f;
+   font-size: 12px;
+
+}
+.maintext h2{
+    font-size: 30px;
+margin-top: 10px;
+margin-left: 20px;
+}
+.text2 p{
+color: #4e4c4c;
+margin:20px;
+line-height: 1.4;
+}
+
+button {
+    align-self: center;
+    padding: 10px;
+   border: none;
+    border-radius: 30px;
+    background: #bcd2ec;
+    color: #2276d6;
+    font-weight: bold;
+}
