@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
     position: relative;
     width: 400px;
@@ -10,8 +15,8 @@
     top:40%;
     display: flex;
     align-self: center;
-width: 200px;
-height: 100px;
+width: 250px;
+height: 110px;
 border: 10px solid #ffffff;
 border-radius: 50%;
 }
@@ -20,22 +25,22 @@ border-radius: 50%;
     top:10%;
    display: flex;
     align-self: center; 
-width: 200px;
-height: 100px;
+width: 250px;
+height: 110px;
 border: 10px solid #DC6638;
 border-radius: 50%;
-transform: rotate(-125deg);
+rotate:-125deg;
 
 }
 .r3{position: relative;
     bottom: 20%;
     display: flex;
     align-self: center;
-width: 200px;
-height: 100px;
-border: 10px solid #4FA07B;
-border-radius: 50%;
-transform: rotate(125deg);
+   width: 250px;
+   height: 110px;
+   border: 10px solid #4FA07B;
+  border-radius: 50%;
+ rotate:125deg;
 }
 .round{
    position: relative;

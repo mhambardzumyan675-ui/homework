@@ -8,12 +8,12 @@ font-family: "Arial",sans-serif;
 .card{
 display: flex;
 flex-direction: column;
-background-color: rgb(213, 240, 240);
+background-color: rgb(233, 243, 243);
 justify-content: space-evenly;
     width: 400px;
     height: 600px;
     margin: 50px;
-    border: 1px solid #acabab;
+    border: 1px solid #d6d0d0;
     border-radius: 6px;
 }
     .image {
@@ -36,11 +36,13 @@ justify-content: space-evenly;
    font-size: 12px;
 
 }
+
 .maintext h2{
     font-size: 30px;
 margin-top: 10px;
 margin-left: 20px;
 }
+
 .text2 p{
 color: #4e4c4c;
 margin:20px;
@@ -52,7 +54,7 @@ button {
     padding: 10px;
    border: none;
     border-radius: 30px;
-    background: #bcd2ec;
+    background: #d1e2f7;
     color: #2276d6;
     font-weight: bold;
 }
