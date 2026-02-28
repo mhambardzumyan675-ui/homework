@@ -1,4 +1,5 @@
-*{
+
+  *{
     margin:0;
     padding:0;
     box-sizing:border-box;
@@ -51,7 +52,7 @@
     background-color:#787885;
   }
   .big{
-    width:165px;
+    width:170px;
     height:150px;
     background-color:#787885;
   }
