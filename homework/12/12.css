@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    margin:30%;
+    width: 200px;
+    height: 460px;
+    background-color: rgb(19, 19, 19);
+    border-radius: 10px;
+    border: 16px solid #050505;
+}
+.border{
+    padding: 8%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:50px;
+}
+.red{
+    width: 100px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: black;
+animation:karmir 20s  infinite; 
+}
+.yellow{
+    width: 100px;
+    aspect-ratio: 1/1;
+    background-color:black;
+    border-radius: 50%;
+animation:dexin 20s  infinite; 
+
+}
+.green{
+    width: 100px;
+    aspect-ratio: 1/1;
+    background-color: black;
+    border-radius: 50%;
+animation:kanach 20s infinite; 
+
+}
+@keyframes karmir{
+    0%{
+        background-color:red;
+        box-shadow: 0 0 20px red;
+    }
+    20%{
+        background-color:red;
+        box-shadow: 0 0 20px red;
+    }
+    40%{
+        background-color: #1f1e1e;
+        box-shadow: none;
+    }
+    100%{
+        background-color: red;
+        box-shadow:0 0 20px red;
+    }
+}
+@keyframes dexin{
+    0%{
+        background-color:#1f1e1e;
+    }
+    20%{
+        background-color:yellow;
+        box-shadow: 0 0 20px yellow;
+    }
+    40%{
+        background-color: #1f1e1e;
+        box-shadow: none;
+    }
+    80%{
+        background-color: yellow;
+        box-shadow: 0 0 20px yellow;
+    }
+    100%{
+        background-color: #1f1e1e;
+    }
+}
+@keyframes kanach{
+0%{
+        background-color: #1f1e1e;
+}
+40%{
+background-color: lime;
+box-shadow: 0 0 20px lime;
+}
+60%{
+background-color: lime;
+box-shadow:0 0 20px lime;
+}
+70%{
+background-color: #1f1e1e;
+box-shadow: none;
+}
+80%{
+background-color: lime;
+box-shadow: 0 0 20px lime;
+}
+90%{
+        background-color: #1f1e1e;
+}
+100%{
+        background-color: #1f1e1e; 
+}
+}
