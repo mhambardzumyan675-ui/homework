@@ -60,7 +60,7 @@ a{
     display: inline-block; 
 }
 .first_page_wrap{
-    margin-top:10% ;
+    margin-top:15% ;
     display: flex;
     flex-direction: row-reverse;
 }
@@ -147,7 +147,8 @@ font-weight: 500;
 .choose_card_group{
     padding: 4%;
     display: flex;
-    justify-content:space-between ;
+    gap: 20px;
+    
 }
 .choose_card{
 display: flex;
@@ -564,7 +565,7 @@ color:#A6A6A6;
 }
 .line{
     width: 100%;
-    border-top: 3px solid #000;
+    border-top: 3px solid var(--color-primary);
     position: absolute;
     transition:0.3s;
 }
@@ -602,34 +603,129 @@ width: 0;
     left: 0;
     top: 0;
     right: 0;
-    padding: 20px;
+    padding: 10px;
     z-index:999;
     backdrop-filter: blur(6px);
 }
 
 @media screen and (max-width:920px){
 .burger{
-    order:2;
-    display: block;
+   order:2;
+    display:block;
+    bottom: 10px;
+    left: 50px;
 }
+
 .header_nav{
     translate: 100%;
     transition:0.3s;
     position: fixed;
     flex-direction: column;
-    width: 100%;
+    width: 60%;
     max-width: 400px;
-    top: 100%;
+    top: 60%;
     right:0;
     height: calc(100vh-88px);
-    background-color: #c0bfbf;
+    backdrop-filter:blur(6px);
+    background-color:rgba(179, 177, 177, 0.8);
     color:var(--color-neutral-1);
+    font-weight: bold;
 }
+.header_nav_item:hover{
+    color: #ce4747;
+}
+
 #check:checked~.header_nav{
     translate: 0;
+   
 }
 .header_navlist{
     flex-direction: column;
-    padding: 30px;
+    padding: 20px;
+}
+.header_logo{
+position: relative;
+left: 0;
+}
+.first_page_background{
+    height: 400px;
+  opacity: 0.7;
+  
+}
+
+.first_page_text_group{
+ position: relative;
+ left:20%;
+ gap: 15px;
+}
+.main-title{
+    font-size: 50px;
+}
+.p_text{
+    color: #363434;
+}
+.brands_wrap{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(2,1fr);
+}
+.choose_card_group{
+    position: relative;
+    left: 0;
+display:grid;
+gap:30px;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+}
+
+.choose_card:last-of-type{
+   position: relative;
+   left:50%;
+}
+.services_card_group{
+    display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+gap:20px;
+}
+.card_item:last-of-type{
+position: relative;
+left:50%;
+}
+.map_image{
+    height: 300px;
+}
+.contact_title{
+    width: 400px;
+}
+.contact_items{
+    position: relative;
+    left:10%;
+}
+.review_text{
+    font-size: 16px;
+}
+.user_name{
+    font-size: 18px;
+}
+.user_country{
+    font-size: 16px;
+}
+.footer_wrap{
+    display: flex;
+    flex-direction: column;
+}
+.rows_group{
+    position: relative;
+    left:0;
+}
+.advant_icon{
+    font-size: 50px;
+}
+.advant_title{
+    font-size: 15px;
+}
+.rating_icon{
+   gap: 15px;
 }
 }
