@@ -1,22 +1,37 @@
 let numbers = [12,5,8,21,3,17,9,30,2,14];
 
 //Arajadranq 1// 
+
 console.log(numbers);
 
 //Arajadranq 2// 
-console.log("10+ numbers");
-numbers
-.filter(num =>num > 10)
-.forEach(num =>console.log(num));
+
+for(let i=0;i<numbers.length;i++)
+    if(numbers[i]>10)
+    console.log("10ic mec tver:",numbers[i]);
 
 //Arajadranq 3// 
-let sum = numbers.reduce((acc,num)=> acc + num,0);
-console.log("Sum value:",sum);
+
+let s=0;
+for(let i=0;i<numbers.length;i++)
+    s+=numbers[i];
+console.log("Gumar:",s);
+
 
 //Arajadranq 4// 
-let min= Math.min(...numbers);
-console.log("Min number:",min);
 
-//Arajadranq 5// 
-let evenCount=numbers.filter(num=> num%2==0).length;
-console.log("Zuyg tver:",evenCount);
+let min=numbers[0];
+for(let i=1;i<numbers.length;i++)
+    if(numbers[i]<min)
+        min=numbers[i];
+        console.log("Min tiv:",min);
+
+//Arajadranq 5//
+
+let q=0;
+for(let i=0;i<numbers.length;i++){
+    if(numbers[i]%2===0){
+        q++;
+    }
+}
+    console.log("Zuyg tveri qanak:",q);
