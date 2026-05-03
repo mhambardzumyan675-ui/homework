@@ -729,3 +729,105 @@ left:50%;
    gap: 15px;
 }
 }
+
+@media screen and (max-width:567px){
+    .burger{
+   order:2;
+    display:block;
+    bottom: 10px;
+    left: 50px;
+}
+
+.header_nav{
+    translate: 100%;
+    transition:0.3s;
+    position: fixed;
+    flex-direction: column;
+    width: 60%;
+    max-width: 400px;
+    top: 60%;
+    right:0;
+    height: calc(100vh-88px);
+    backdrop-filter:blur(6px);
+    background-color:rgba(179, 177, 177, 0.8);
+    color:var(--color-neutral-1);
+    font-weight: bold;
+}
+
+.header_nav_item:hover{
+    color: #ce4747;
+}
+
+.header_nav_item:hover{
+    color: #ce4747;
+}
+
+#check:checked~.header_nav{
+    translate: 0;
+   
+}
+.header_navlist{
+    flex-direction: column;
+    padding: 20px;
+}
+.header_logo{
+position: relative;
+left: 0;
+}
+.first_page_background{
+    display: none;
+  
+}
+.first_page_text_group{
+position: relative;
+left:20px;
+padding: 100px 0;
+gap: 50px;
+}
+.p_text{
+    font-size: 25px;
+    color: #595959;
+}
+.brands_wrap{
+    display: none;
+}
+.title_pop{
+    margin-right: 30%;
+    translate: 50% -50%;
+}
+.title_choose{
+    min-width: 500px;
+}
+.choose_text{
+    min-width: 400px;
+}
+.choose_card_group{
+    
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+.choose_card_group:last-of-type{
+    padding-right: 100%;
+}
+.choose_title_group{
+    margin-top: 15%;
+}
+.card_brand{
+    min-width: 200px;
+}
+.card_price{
+    font-size: 35px;
+}
+.services_card_group{
+    margin: 10px -10px;
+display:flex ;
+flex-direction: column;
+  }
+
+.row_one{
+    display: flex;
+    flex-direction: column;
+}
+}
