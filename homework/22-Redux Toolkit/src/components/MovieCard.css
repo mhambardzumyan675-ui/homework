@@ -1,0 +1,26 @@
+.card{
+    width: 400px;
+    height: 500px;
+}
+
+.poster{
+    height: 60%;
+}
+
+h3{
+    font-size: 30px;
+}
+button{
+    background-color: brown;
+    border: none;
+    height: 30px;
+    margin-right: 10px;
+}
+ nav{
+   margin-bottom:10%;
+    font-size: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+ }
